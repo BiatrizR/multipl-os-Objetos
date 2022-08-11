@@ -12,6 +12,7 @@ var ground2;
 var ground3;
 var ground4;
 var ground5;
+
 function setup() {
   createCanvas(400,400);
   engine = Engine.create();
@@ -49,8 +50,8 @@ function setup() {
   ellipseMode(RADIUS);
 }
 
-function draw() 
-{
+function draw() {
+  
   background(51);
   Engine.update(engine);
   
@@ -73,8 +74,6 @@ function draw()
  
 //console.log(ground.position.y);
 
-  
-  
 }
 
 function vForce()
